@@ -30,7 +30,6 @@ admin.site.__class__ = AdminSiteProtegido
 admin.site.site_header = 'Administración IAGSA'
 admin.site.site_title = 'Admin IAGSA'
 admin.site.index_title = 'Panel de Administración'
-admin.site.has_permission = lambda self, request: request.user.is_active and request.user.is_superuser
 
 
 @admin.register(Subgerencia)
