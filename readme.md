@@ -29,7 +29,8 @@ IAGSA es una plataforma empresarial completa que integra múltiples módulos par
 ### 1. Clonar o descargar el proyecto
 
 ```bash
-cd /home/estiven/IAGSA
+# Navega al directorio del proyecto
+cd IAGSA
 ```
 
 ### 2. Crear un entorno virtual (recomendado)
